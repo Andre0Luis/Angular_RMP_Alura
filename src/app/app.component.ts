@@ -6,5 +6,22 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'rickandMortyPic';
+
+  photos = [
+   {
+      url: '../assets/Images/6.jpg',
+      description:'Rick and Morty La Vida?'
+  },
+  {
+      url:'../assets/Images/1.jpg',
+      description:'Rick and Morty Background White'
+  },
+  {
+    url:'../assets/Images/4.jpg',
+    description:'Rick and Morty Adventure'
+  }
+  ];
+
+ 
+  
 }
